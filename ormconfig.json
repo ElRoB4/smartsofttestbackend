@@ -1,0 +1,13 @@
+
+{
+    "type": "mssql",
+    "host": "smartsoft-test.database.windows.net",
+    "username": "smstowner",
+    "password": "Dbz20xl85",
+    "database": "smartsoft-test",
+    "entities":["src/**/**.entity{.ts,.js}"],
+    "options": {  
+        "encrypt": "Env.get('DB_ENCRYPT', true)"    
+      } 
+  
+    }
